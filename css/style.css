@@ -578,4 +578,52 @@ section {
   color: #fff;
   background-color: #001a0c;
 }
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.app .image {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.app .image img {
+  width: 100%;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.app .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+}
+
+.app .content span {
+  font-size: 2rem;
+  color: #001a0c;
+}
+
+.app .content h3 {
+  font-size: 2.5rem;
+  color: #004d24;
+  padding-top: 1rem;
+}
+
+.app .content p {
+  font-size: 1.4rem;
+  color: #001a0c;
+  padding: 1rem 0;
+  line-height: 2;
+}
 /*# sourceMappingURL=style.css.map */
