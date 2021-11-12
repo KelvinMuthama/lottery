@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header #Begin -->
+    <header class="header">
+      <a href="home.html" class="logo"
+        ><i class="fas fa-dice-five"></i> loto.</a
+      >
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+    </header>
+    <!-- Header #End -->
+
+    <!-- Close button -->
+    <div id="closer" class="fas fa-times"></div>
+
+    <!-- Navbar #Begin -->
+    <nav class="navbar">
+      <a href="home.html">home</a>
+      <a href="lotteries.html">lotteries</a>
+      <a href="raffles.html">raffles</a>
+      <a href="results.html">results</a>
+      <a href="blog.html">blog</a>
+      <a href="play.html">how to play</a>
+      <a href="faq.html">FAQ</a>
+      <a href="agent.html">sales agents</a>
+    </nav>
+    <!-- Navbar #End -->
+
+    <!-- Login #Begin -->
+    <div class="login-form">
+      <form action="">
+        <h3>login</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="text" class="box" placeholder="enter your password" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+
+        <p>forgot password?<a href="#"></a></p>
+        <p>don't have an account?<a href="#">Sign up</a></p>
+      </form>
+    </div>
+
+    <!-- Login #End -->
+
+    <!-- Home #Begin -->
+
+    <section class="home">
+      <div class="slides-container">
+        <div class="slide active">
+          <div class="content">
+            <span>jackpot</span>
+            <h3>₦410,520,000</h3>
+            <p>Draw in 03 days 23 hours 27 minutes</p>
+            <a href="#" class="btn">play now</a>
+          </div>
+          <div class="image">
+            <img src="image/banner-1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="content">
+            <span>jackpot</span>
+            <h3>₦410,520,000</h3>
+            <p>increase your chances of winning</p>
+            <a href="#" class="btn">play now</a>
+          </div>
+          <div class="image">
+            <img src="image/banner-2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+
+    <!-- Home #End -->
+
+    <!-- Banner #Start -->
+    <section class="banner-container">
+      <div class="banner">
+        <img src="image/gg-world-pick-4-nigeria.png" alt="" />
+        <div class="content">
+          <span>GG World Pick 4</span>
+          <h3>₦500,000</h3>
+          <p>Next draw in: 17 minutes 40 seconds</p>
+          <a href="" class="btn">play now</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="image/gg-world-pick-3-nigeria.png" alt="" />
+        <div class="content">
+          <span>GG World Pick 3</span>
+          <h3>₦500,000</h3>
+          <p>Next draw in: 17 minutes 40 seconds</p>
+          <a href="" class="btn">play now</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="image/gg-world-keno-nigeria.png" alt="" />
+        <div class="content">
+          <span>GG World Keno</span>
+          <h3>₦500,000</h3>
+          <p>Next draw in: 17 minutes 40 seconds</p>
+          <a href="" class="btn">play now</a>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="image/gg-world-raffle-nigeria-4.png" alt="" />
+        <div class="content">
+          <span>GG World Raffle/span>
+          <h3>₦500,000</h3>
+          <p>Next draw in: 17 minutes 40 seconds</p>
+          <a href="" class="btn">play now</a>
+        </div>
+      </div>
+    </section>
+    <!-- Banner #End -->
+
+    <!-- Play #Begin -->
+    <section class="play">
+      <h1 class="title">
+        <span>how to play GG world million</span> 
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+            <i class="fas fa-sign-in-alt"></i>
+          <h3>register or log in</h3>
+          <p>
+            Register an account or log in if you already have one.
+          </p>
+        </div>
+
+        <div class="box">
+           <i class="fas fa-dice-five"></i>
+          <h3>pick your numbers</h3>
+          <p>
+            select 5 numbers and 2 GG numbers you believe to be lucky!
+          </p>
+        </div>
+
+        <div class="box">
+           <i class="fas fa-ticket-alt"></i>
+          <h3>order your ticket</h3>
+          <p>
+            order and pay for the ticket filled with your lucky numbers.
+          </p>
+        </div>
+
+        <div class="box">
+           <i class="fas fa-trophy"></i>
+          <h3>check if you won!</h3>
+          <p>
+            Check the draw results to see if you have won!
+
+
+          </p>
+        </div>
+
+        
+      </div>
+      <div class="play-btn">
+
+          <a href="" class="btn">play now</a>
+      </div>
+    </section>
+    <!-- Play #End -->
+
+    <!-- Results and Download #Begin-->
+    <section class="results">
+
+        <h1 class="title">
+        <span>latest results</span>
+        <p>9 November 2021 8:45 PM WAT</p>
+        
+        
+      </h1>
+
+      <div class="box-container">
+            <div class="box" > <span class="even">17</span></div>
+            <div class="box" > <span class="even">25</span></div>
+            <div class="box" > <span class="even">26</span></div>
+            <div class="box" > <span class="even">33</span></div>
+            <div class="box" > <span class="even">36</span></div>
+            <div class="box" > <span class="odd">1</span></div>
+            <div class="box" > <span class="odd">8</span></div>
+        </div>
+
+    </section>
+    <!-- Results and Download #End -->
+
+    <!-- Js link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
